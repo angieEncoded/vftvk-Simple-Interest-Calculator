@@ -1,4 +1,73 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:rgb(0, 0, 0);
+}
+
+.headerColor {
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(129, 128, 128);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.formBackground {
+    background-color: white;
+    border-radius: 22px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+    padding: 0;
+}
 
 
+.btn {
+    
+}
+
+
+/* Handle form inputs below here */
+.inputsContainer {
+    max-width: 25em;
+    margin: auto;
+}
+
+.row {
+display: flex;
+justify-content: flex-start;
+padding: .5em;
+}
+
+.row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row > input {
+flex: 2;
+max-height: 30px;
+}
+
+.row > input,
+.row > button {
+padding: .5em;
+}
+
+/* .row > button {
+background: gray;
+color: white;
+border: 0;
+} */
+
+.row > select{
+    max-height: 30px;
+    width: 3em;
+    justify-content: flex-start;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

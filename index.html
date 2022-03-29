@@ -1,16 +1,45 @@
 <html>
     <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- CSS only -->
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
+        <div id="content-root"></div>
+        <div id="results-root"></div>
+    </body class="bodyBackground">
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+    <div class="formBackground">
+        <h1 class="headerColor">Simple Interest Calculator</h1>
+            <div class="inputsContainer">
+                <ul>
+                    <li class="row">
+                        <label for="principal">Amount</label>
+                        <input type="number" id="principal">
+                    </li>
+                    <li class="row">
+                        <label for="rate">Interest Rate</label>
+                        <input type="range" min="1" max="100" value="50" class="slider" id="rate">
+                        <div class="range-root"></div>
+                    </li>
+                    <li class="row">
+                        <label for="years">No. of Years</label>
+                        <select name="years" id="years">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                    </li>
+                    <li class="row">
+                        <button onclick="compute()" class="btn">Compute Interest</button>
+                    </li>
+                </ul>
+            </div>
+    </div>
 
-        <button onclick="compute()">Compute</button>
-    </body>
+    
+
+
+    <script src="script.js"></script>
 </html>
