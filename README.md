@@ -1,4 +1,4 @@
-# Final Prject for IBMCAD101EN
+# Final Project for IBMCAD101EN
 
 - The task was to code an interest calculator that looks like the reference images and has some basic functionality.
 - We were given a skeleton and instructed to follow the following rubric:
@@ -31,4 +31,6 @@
 - Instead of the built-in browser alert box, I used a bootstrap modal, called programatically with javascript when the user clicks the calculation button
   - The rubric seems to suggest calling the alert on a keypress as soon as the user has inputted bad data - I thought that might be a bad user experience so I tied it to the button for all three checks.
 - I converted some of the numbers to 2 digit fixed floats to display them correctly.
+- It's also worth noting that I forked the project and developed it in vscode locally. So some of the elements won't match what was in the instructions in the Skills Network Lab tool and I worked from the screen shot entirely.
+- However, all the elements required in the rubric are satisfied
 
