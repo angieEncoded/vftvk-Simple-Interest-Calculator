@@ -1,0 +1,54 @@
+/* Handle form inputs below here */
+.inputsContainer {
+    max-width: 25em;
+    margin: auto;
+}
+
+.row {
+display: flex;
+justify-content: flex-start;
+padding: .5em;
+}
+
+.row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row > input {
+flex: 2;
+max-height: 30px;
+}
+
+.row > div {
+    flex: 3;
+    padding-left: 1em;
+    padding-top: .5em;
+    max-height: 30px;
+    max-width: 4em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row > input,
+.row > button {
+padding: .5em;
+}
+
+.row > select{
+    max-height: 30px;
+    width: 3em;
+    justify-content: flex-start;
+}
+
+.row .slider {
+    max-width: 10em;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+}
